@@ -1,60 +1,35 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-regular-webfont.eot');
+    src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-regular-webfont.woff2') format('woff2'),
+         url('../font/opensans-regular-webfont.woff') format('woff'),
+         url('../font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{font-size:16px;}
+
 body{
+	margin:0px;
+	font-size:16px;
+	}
+p,li,h1,h2,h3,h4{font-family:open_sansregular;}
+
+h1,h2,h4{text-align:center;}
+
+.introduccion{}
 
 
-}
-
-footer{
-background-color:black; 
-background-size:"cover";
-background-attachment:fixed;
-background-size: 100% 100%; 
-
-}
-header{
-
-
-text-align:center;
-font-size:larger;	
-}
-p{
-
-font-family:sans-serif;
-text-align:justify;
-}
-
-li{
-text-align:justify;
-
-}
-#introduccion{
-margin:90px;
-background-color:#F1C40F
-background-size:100% 100%;
-}
-#definir{
-margin:90px;
-
-}
-#medir{
-margin:90px;
-
-}
-#cuantificar{
-margin:90px;
-
-}
-#comparar{
-margin:90px;
-
-}
-#perfil{
-margin:90px;
-
-}
-#referencias{
-margin:90px;
+/* Clases de estilo    */
+.black{
+	background:black;
+	color:white;
+	padding:50px 40px;
 
 
 
 
 }
+.black h3{color:rgb(2, 9, 17)}
