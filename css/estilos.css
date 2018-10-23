@@ -8,6 +8,15 @@
     font-weight: normal;
     font-style: normal;
 }
+main{margin:0px; display:none;}
+main ul {display:table;}
+
+main ul li{
+	text-align:center;
+	display:table-cell;
+	background:center black;
+	padding:0px 100px;
+}
 
 html{font-size:16px;}
 
@@ -17,19 +26,28 @@ body{
 	}
 p,li,h1,h2,h3,h4{font-family:open_sansregular;}
 
-h1,h2,h4{text-align:center;}
+h1,h2,h4{
+	text-align:center;
+		}
 
-.introduccion{}
+
+.white{
+	background:white;
+	color:black;
+	padding:50px 40px;
+}
+
+.red{
+	background:#850505;
+	color:white;
+	padding:50px 40px;
+	}
+
 
 
 /* Clases de estilo    */
 .black{
 	background:black;
 	color:white;
-	padding:50px 40px;
+	padding:50px 40px;}
 
-
-
-
-}
-.black h3{color:rgb(2, 9, 17)}
