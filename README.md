@@ -1,2 +1,1 @@
-link xd
-https://anthonycarita.github.io/anemiapolar2/
+commit suicide
